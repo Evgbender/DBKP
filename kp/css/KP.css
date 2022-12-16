@@ -1,0 +1,207 @@
+.menuTab{
+    border-collapse: collapse;
+    width: 100%;
+    height: 20%;
+    table-layout: fixed;
+    font-family: Bahnschrift;
+    font-weight: bold;
+    font-size: large;
+
+}
+body{
+    margin: 0px
+}
+.ucRows{
+    padding: 2% 5%;
+    margin: 0.5% 0%;
+    border: 4px solid #87CCFA89;
+    border-radius: 5px;
+    font-family: Bahnschrift;
+    font-weight: bold;
+    font-size: x-large;
+    display: inline-block;
+    width: 70%;
+
+}
+.ucRows1{
+    padding: 2% 5%;
+    margin: 0.5% 0%;
+    border: 4px solid #87CCFA89;
+    border-radius: 5px;
+    font-family: Bahnschrift;
+    font-weight: bold;
+    font-size: x-large;
+    display: inline-block;
+    width: 70%;
+
+}
+.ucRows:hover{
+    padding: 2% 5%;
+    margin: 0.5% 0%;
+    background-color: #87CCFA89;
+    border-radius: 5px;
+    font-family: Bahnschrift;
+    font-weight: bold;
+    font-size: x-large;
+
+}
+.menuParts{
+    text-align: center;
+    margin: 0;
+    border: 0;
+    height: 100%;
+    width: 50%;
+    display: inline-block;
+
+}
+.menuParts:hover{
+    height: 100%;
+    text-align: center;
+    background-color: #628dd9;
+    margin: 0;
+    border: 0;
+
+}
+.topMenu{
+    z-index: 999999;
+    display: block;
+    height: 6%;
+    width: 100%;
+    background-color: black;
+    color: aliceblue;
+    font-family: Bahnschrift;
+    font-weight: bold;
+    font-size: x-large;
+    margin: 0px;
+    border: 0px;
+    position: fixed;
+    top: 0;
+}
+
+.listPlot{
+    display: block;
+    position: absolute;
+    height: max-content;
+    width: 50%;
+    margin: 14% 30% 0 30%;
+    border: 0px;
+
+}
+a:link,a:visited,a:hover,a:active{
+    color: black;
+}
+
+a.menuA:link,a.menuA:visited,a.menuA:active,a.menuA:hover{
+    color: white;
+}
+
+.innerUs {
+    position: absolute;
+    top: 50%;
+    margin-top: -0.625em;
+    left: 25%;
+    margin-left: -0.625em;
+}
+.innerChamp {
+    position: absolute;
+    top: 50%;
+    margin-top: -0.625em;
+    right: 25%;
+    margin-right: -0.625em;
+}
+.PlNameId {
+    margin: 10% 5%;
+
+}
+.PlNameP {
+    font-weight: bold;
+    font-family: Bahnschrift;
+    font-size: xxx-large;
+    display: inline;
+
+}
+
+th{
+    text-align: right;
+}
+.addPlate{
+    display: block;
+    position: absolute;
+    height: max-content;
+    width: 40%;
+    margin: 5% 30% 0 30%;
+    border: 0px;
+    height: max-content;
+    font-family: Bahnschrift;
+    font-weight: bold;
+    font-size: x-large;
+}
+.addBut{
+    display: inline-block;
+    border: 4px solid #44F14C7C;
+    border-radius: 5px;
+    padding: 3% 10%;
+    width: 24%;
+    text-align: center;
+}
+.delBut{
+    display: inline-block;
+    float: right;
+    border: 4px solid #EF383877;
+    border-radius: 5px;
+    width: 1%;
+    text-align: center;
+    padding: 1% 5%;
+    margin: 1% 0%;
+    vertical-align: center;
+    font-size: x-large;
+    font-family: Bahnschrift;
+    font-weight: bold;
+}
+.addBut:hover{
+    display: inline-block;
+    border: 4px solid #44F14C7C;
+    background-color: #44F14C7C;
+    border-radius: 5px;
+    padding: 3% 10%;
+    width: 24%;
+    text-align: center;
+}
+.delBut:hover{
+    display: inline-block;
+    float: right;
+    border: 4px solid #EF383877;
+    background-color: #EF383877;
+    border-radius: 5px;
+    padding: 1% 5%;
+    margin: 1% 0%;
+    width: 1%;
+    text-align: center;
+}
+.delBut1{
+    display: inline-block;
+    float: right;
+    border: 4px solid #EF383877;
+    border-radius: 5px;
+    width: 1%;
+    text-align: center;
+    padding: 1% 5%;
+    margin: 1% 0%;
+    vertical-align: center;
+    font-size: x-large;
+    font-family: Bahnschrift;
+    font-weight: bold;
+    position: absolute;
+    left: 90%;
+}
+.delBut1:hover{
+    display: inline-block;
+    float: right;
+    border: 4px solid #EF383877;
+    background-color: #EF383877;
+    border-radius: 5px;
+    padding: 1% 5%;
+    margin: 1% 0%;
+    width: 1%;
+    text-align: center;
+}
